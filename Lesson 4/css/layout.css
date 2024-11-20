@@ -1,0 +1,171 @@
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+ 
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+    font-family: system-ui, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-size: 14px;
+}
+ 
+header {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2)
+}
+
+.header-img {
+    width: 100%;
+}
+
+.header-first-menu {
+    padding: 15px;
+    background-color: #231f20
+}
+
+.header-first-menu a {
+    color: #a8a6b3;
+}
+
+.header-first-menu ul {
+    margin-left: 15%;
+}
+
+.header-first-menu a:hover {
+    color: #fff;
+}
+
+.header-second-menu {
+    padding: 15px;
+    background-color: #fff
+}
+
+.header-second-menu a {
+    color: #858295;
+    font-weight: 500;
+}
+
+.header-second-menu ul {
+    margin-left: 15%;
+}
+
+.header-second-menu a:hover {
+    color: #000;
+}
+
+.tarif-label-h1 {
+    text-align: center;
+}
+
+.tarif-label-priority {
+    border-radius: 12px;
+    background-color: #f3f3f5;
+    padding: 15px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.tarif-label-priority::before {
+    content: url('../images/crown-1.png');
+    margin-right: 5px;
+}
+
+.tarif-icon-unlimit {
+    font-weight: 500;
+    font-size: 30px
+}
+
+.muted {
+    color: #858295;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    padding: 15px;
+}
+ 
+footer {
+    background-color: #282828;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    width: 100%;
+}
+ 
+article {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 1%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+aside {
+    width: 30%;
+    padding: 15px;
+    margin-right: 15%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+input[type=submit], [type=reset] {
+    height: auto;
+    color: #514400;
+    font-size: 16px;
+    line-height: 16px;
+    cursor: pointer;
+    font-weight: 500;
+    text-align: center;
+    border-radius: .5rem;
+    letter-spacing: .07em;
+    background-color: #ffd400;
+    text-transform: uppercase;
+    padding: 15px !important;
+}
+
+article a {
+    color: #858295;
+}
+
+article a:hover {
+    color: #000;
+}
+
+section {
+    padding: 15px;
+}
+ 
+article h1 {
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+}
+
+.title-center {
+    text-align: center;
+}
+
+p {
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+  }

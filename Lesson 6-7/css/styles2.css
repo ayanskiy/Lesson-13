@@ -1,0 +1,21 @@
+@keyframes example {
+    0% { 
+        transform: scaleX(1); 
+    }
+
+    50% { 
+        transform: scaleX(1.2); 
+    }
+
+    70% { 
+        transform: rotate(60deg); 
+    }
+
+    100% { 
+        transform: skew(20deg, 10deg);
+    }
+  }
+  
+  div {
+    animation: example 4s infinite;
+  }

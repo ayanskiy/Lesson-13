@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/layout.css" rel="stylesheet">
+    <title>Дубай - город, где все в превосходной степени.</title>
+</head>
+<body>
+    <header>
+        <span class="header-logo">
+            <img src="https://www.flagcolorcodes.com/data/flag-of-the-united-arab-emirates.png" alt="" width="30px">
+        </span>
+    </header>
+    <main>
+        <article>
+            <img src="https://cdn.tripster.ru/thumbs2/2dd725c8-5e6e-11ee-acc3-b2623b589497.1220x600.jpeg" alt="Дубай" class="header-img">
+            <section>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Главная страница</a></li>
+                        <li><a href="task1.html">Задание №2</a></li>
+                        <li><a href="task2.html">Задание №3</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <section>
+                <h3>РЕГИСТРАЦИЯ НА МАРАФОН</h3>
+                <form action="success.html">
+                    <fieldset>
+                        <legend>Персональные данные</legend>
+                        <div>
+                            <label for="email">Электронная почта (email)</label>
+                            <input type="email" id="email" name="email" placeholder="" required>
+                            <hr>
+                        </div>
+                        <div>
+                            <label for="phone">Мобильный телефон</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+7-700-00-00" pattern="+7-[0-9]{3}-[0-9]{2}-[0-9]{2}" minlength="8" required >
+                            <br>
+                            <small>Формат: +7-700-00-00</small>
+                            <hr>
+                        </div>
+                        <div>
+                            <label for="username">Имя</label>
+                            <input type="text" id="username" name="username"  placeholder="Введите ваше имя" required >
+                            <hr>
+                        </div>
+                        <fieldset>
+                            <legend>Пол</legend>
+                            <div>
+                                <input type="radio" id="men" name="male" placeholder="Выберите пол" value="men">
+                                <label for="men">Мужской</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="women" name="male" placeholder="Выберите пол" value="women">
+                                <label for="women">Женский</label>
+                            </div>
+                        </fieldset>
+                        <br>
+                        <div>
+                            <label for="birthday">Дата рождения</label>
+                            <input type="date" id="birthday" placeholder="Дата рождения" min="12" max="20">
+                            <hr>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="country">Страна</label>
+                            <select name="country" id="country">
+                                <option value="kazakhstan">Казахстан</option>
+                                <option value="russia">Россия</option>
+                                <option value="uzbekistan">Узбекистан</option>
+                                <option value="kyrgyzstan">Кыргызстан</option>
+                            </select>
+                            <hr>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="checkbox">Согласие на обработку данных</label>
+                            <input type="checkbox" id="checkbox" required>
+                        </div>
+                        <br>
+                    <input type="submit" value="Отправить">
+                    <br><br>
+                    <button type="reset">Сбросить</button>
+                </form>
+            </section>
+            <footer>
+                <section>
+                    &#128172; Потому что трудные времена создают сильных людей, сильные люди создают лёгкие времена. Лёгкие времена создают слабых людей. Слабые люди создают трудные времена. Многие не поймут, но надо воспитывать воинов, а не паразитов <sup>&#9770;</sup>
+                </section>
+            </footer>
+        </article>
+    </main>
+</body>
+</html>

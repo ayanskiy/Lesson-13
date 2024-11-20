@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F4F4F4;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #00887A;
+  color: #FFF;
+  padding: 15px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+  /* Large desktops and laptops */
+  /* Portrait tablets and medium desktops */
+  /* Portrait tablets and small desktops */
+  /* Landscape phones and portrait tablets */
+  /* Landscape phones and smaller */
+}
+.grid-container .grid-item img {
+  transition: 1s;
+}
+.grid-container .grid-item img:hover {
+  transform: scale(1.2);
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .grid-container .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .grid-container .grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 10px;
+  }
+}/*# sourceMappingURL=main.css.map */
